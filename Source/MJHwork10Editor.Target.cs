@@ -10,6 +10,10 @@ public class MJHwork10EditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5;
-		ExtraModuleNames.Add("MJHwork10");
+		ExtraModuleNames.AddRange(new string[] 
+		{ 
+			"MJHwork10",
+			"Test"
+		});
 	}
 }

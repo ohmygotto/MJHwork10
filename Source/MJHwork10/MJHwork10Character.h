@@ -47,6 +47,7 @@ class AMJHwork10Character : public ACharacter
 public:
 	AMJHwork10Character();
 	
+	virtual void BeginPlay() override;
 
 protected:
 
